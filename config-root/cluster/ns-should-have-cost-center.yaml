@@ -4,7 +4,6 @@ kind: K8sRequiredLabels
 metadata:
   name: ns-cost-center
 spec:
-  enforcementAction: dryrun
   match:
     kinds:
       - apiGroups: [""]
