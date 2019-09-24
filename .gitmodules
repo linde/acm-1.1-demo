@@ -1,0 +1,3 @@
+[submodule "config-root/cluster"]
+	path = config-root/cluster
+	url = git@github.com:linde/acm-1.1-demo-policy.git
