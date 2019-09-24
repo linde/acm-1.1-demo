@@ -10,6 +10,7 @@ spec:
   git:
     secretType: ssh
     syncRepo: git@github.com:linde/acm-1.1-demo.git
+    syncBranch: acm-git-submodule
     policyDir: config-root
 
 
