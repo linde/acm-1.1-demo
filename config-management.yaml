@@ -4,6 +4,8 @@ metadata:
   name: config-management
   namespace: config-management-system
 spec:
+  configConnector:
+    enabled: true
   policyController:
     enabled: false
   git:
