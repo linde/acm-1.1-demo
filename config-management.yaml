@@ -4,12 +4,13 @@ metadata:
   name: config-management
   namespace: config-management-system
 spec:
-  clusterName: nomos-empty
+  clusterName: *syncBranch
   policyController:
-    enabled: true
+    enabled: false
   git:
     secretType: ssh
-    syncRepo: git@github.com:linde/acm-1.1-demo.git
+    syncRepo: &syncRepo git@github.com:linde/acm-1.1-demo.git
+    syncBranch: &syncBranch istio-multi
     policyDir: config-root
 
 
