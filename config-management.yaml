@@ -4,7 +4,6 @@ metadata:
   name: config-management
   namespace: config-management-system
 spec:
-  clusterName: *syncBranch
   policyController:
     enabled: false
   git:
@@ -12,6 +11,7 @@ spec:
     syncRepo: &syncRepo git@github.com:linde/acm-1.1-demo.git
     syncBranch: &syncBranch istio-multi
     policyDir: config-root
+  clusterName: *syncBranch
 
 
 
