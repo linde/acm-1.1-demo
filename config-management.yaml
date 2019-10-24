@@ -11,6 +11,4 @@ spec:
     secretType: ssh
     syncRepo: git@github.com:linde/acm-1.1-demo.git
     policyDir: config-root
-
-
-
+    syncBranch: poss-hydrate-issue
