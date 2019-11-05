@@ -1,5 +1,7 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: stevenlinde-kcc-001
+  name: &name stevenlinde-kcc-001
+  annotation:
+    cnrm.cloud.google.com/project-id: *name
   
