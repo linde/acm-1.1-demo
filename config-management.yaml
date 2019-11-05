@@ -4,13 +4,11 @@ metadata:
   name: config-management
   namespace: config-management-system
 spec:
-  clusterName: nomos-empty
-  policyController:
-    enabled: true
+  clusterName: kcc-test
   git:
     secretType: ssh
     syncRepo: git@github.com:linde/acm-1.1-demo.git
+    syncBranch: kcc
     policyDir: config-root
-
 
 
