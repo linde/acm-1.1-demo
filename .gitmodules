@@ -1,0 +1,3 @@
+[submodule "config-root/namespaces/vandely-export"]
+	path = config-root/namespaces/vandely-export
+	url = git@github.com:linde/vandely-export.git
